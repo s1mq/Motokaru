@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Motokaru Driving school</string>
     <string name="about">About us:</string>
-    <string name="description">Our mission is to provide quality training for future drivers. The importance is not only to wield  an A-category license, but to also acquire the driving techniques that assure safety and let You enjoy the ride. We are lifelong motorcycle riders who have over 10 years of experience training others.</string>
+    <string name="description">Our mission is to provide quality training for future drivers.
+        The importance is not only to wield  an A-category license, but to also acquire the driving
+        techniques that assure safety and let You enjoy the ride. We are lifelong motorcycle riders
+        who have over 10 years of experience training others.</string>
     <string name="contact">Contact us:</string>
     <string name="address">Pärnu mnt. 323, Tallinn 11620</string>
     <string name="number">+372 557 1000</string>
@@ -10,5 +13,13 @@
     <string name="motokaru">Motokaru</string>
     <string name="school">Driving School</string>
     <string name="image">image</string>
+    <string name="drive">Drive safe!</string>
+    <string name="offer">We guarantee you:</string>
+    <string name="offer2">
+        • Individual training
+        \n• Useful tips and tricks
+        \n• Friendly and patient teaching
+        \n• Overqualification for the national driver's exam
+    </string>
 
 </resources>

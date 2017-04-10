@@ -14,29 +14,29 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
-            android:text="@string/motokaru"
-            android:textStyle="bold"
             android:gravity="center"
-            android:textSize="36sp"/>
+            android:text="@string/motokaru"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <ImageView
-            android:contentDescription="@string/image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/image"
             android:scaleType="fitCenter"
             android:src="@drawable/bike5" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
-            android:text="@string/school"
-            android:textStyle="bold"
             android:gravity="center"
-            android:textSize="36sp"/>
+            android:text="@string/school"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -62,73 +62,92 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
                 android:paddingLeft="16dp"
-                android:paddingTop="8dp"
                 android:paddingRight="16dp"
+                android:paddingTop="8dp"
                 android:text="@string/description" />
 
             <TextView
-                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
                 android:paddingLeft="16dp"
-                android:paddingTop="8dp"
                 android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/offer"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/offer2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
                 android:text="@string/contact"
                 android:textColor="@android:color/black"
                 android:textSize="18sp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/web_address"
-                android:gravity="center_vertical"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp"
                 android:drawableLeft="@drawable/ic_public_black_36dp"
+                android:drawablePadding="16dp"
                 android:drawableStart="@drawable/ic_public_black_36dp"
-                android:drawablePadding="16dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/number"
                 android:gravity="center_vertical"
+                android:paddingBottom="8dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
-                android:paddingBottom="8dp"
+                android:text="@string/web_address" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:drawableLeft="@drawable/ic_call_black_36dp"
+                android:drawablePadding="16dp"
                 android:drawableStart="@drawable/ic_call_black_36dp"
-                android:drawablePadding="16dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/email"
                 android:gravity="center_vertical"
+                android:paddingBottom="8dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
-                android:paddingBottom="8dp"
+                android:text="@string/number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:drawableLeft="@drawable/ic_mail_outline_black_36dp"
+                android:drawablePadding="16dp"
                 android:drawableStart="@drawable/ic_mail_outline_black_36dp"
-                android:drawablePadding="16dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/address"
                 android:gravity="center_vertical"
+                android:paddingBottom="8dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
-                android:paddingBottom="8dp"
+                android:text="@string/email" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:drawableLeft="@drawable/ic_place_black_36dp"
+                android:drawablePadding="16dp"
                 android:drawableStart="@drawable/ic_place_black_36dp"
-                android:drawablePadding="16dp"/>
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/address" />
 
         </LinearLayout>
     </LinearLayout>

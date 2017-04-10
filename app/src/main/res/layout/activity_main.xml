@@ -108,7 +108,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
-                android:text="@string/web_address" />
+                android:text="@string/web_address"
+                android:onClick="openWeb"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -134,7 +135,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
-                android:text="@string/email" />
+                android:text="@string/email"
+                android:onClick="openEmail"/>
 
             <TextView
                 android:layout_width="match_parent"

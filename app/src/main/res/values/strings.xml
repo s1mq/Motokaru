@@ -16,10 +16,13 @@
     <string name="drive">Drive safe!</string>
     <string name="offer">We guarantee you:</string>
     <string name="offer2">
-        • Individual training
-        \n• Useful tips and tricks
-        \n• Friendly and patient teaching
-        \n• Overqualification for the national driver's exam
+        •Individual training
+        \n•Useful tips and tricks
+        \n•Friendly and patient teaching
+        \n•Overqualification for the national driver\'s exam
     </string>
+    <string-array name="emails">
+        <item>motokaru@motokaru.ee</item>
+    </string-array>
 
 </resources>

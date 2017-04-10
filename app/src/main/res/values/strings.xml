@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Motokaru Driving School</string>
+    <string name="app_name">Motokaru Driving school</string>
+    <string name="about">About us:</string>
+    <string name="description">Our mission is to provide quality training for future drivers. The importance is not only to wield  an A-category license, but to also acquire the driving techniques that assure safety and let You enjoy the ride. We are lifelong motorcycle riders who have over 10 years of experience training others.</string>
+    <string name="contact">Contact us:</string>
+    <string name="address">Pärnu mnt. 323, Tallinn 11620</string>
+    <string name="number">+372 557 1000</string>
+    <string name="email">motokaru@motokaru.ee</string>
+    <string name="web_address">www.motokaru.ee</string>
+    <string name="motokaru">Motokaru</string>
+    <string name="school">Driving School</string>
+    <string name="image">image</string>
+
 </resources>

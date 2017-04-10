@@ -122,7 +122,8 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
-                android:text="@string/number" />
+                android:text="@string/number"
+                android:onClick="openPhone"/>
 
             <TextView
                 android:layout_width="match_parent"

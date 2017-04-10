@@ -42,8 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-
-            android:background="@android:color/white"
+            android:background="@drawable/rounded_corners"
             android:orientation="vertical">
 
             <TextView
@@ -80,22 +79,31 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="8dp"
+                android:paddingBottom="16dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
                 android:text="@string/offer2" />
 
-            <TextView
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/contact"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="8dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:paddingTop="8dp"
-                android:text="@string/contact"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:orientation="vertical"
+                android:layout_margin="8dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -104,12 +112,14 @@
                 android:drawablePadding="16dp"
                 android:drawableStart="@drawable/ic_public_black_36dp"
                 android:gravity="center_vertical"
+                android:onClick="openWeb"
                 android:paddingBottom="8dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
                 android:text="@string/web_address"
-                android:onClick="openWeb"/>
+                android:background="@drawable/rounded_corners"
+                android:layout_marginBottom="1dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -118,12 +128,14 @@
                 android:drawablePadding="16dp"
                 android:drawableStart="@drawable/ic_call_black_36dp"
                 android:gravity="center_vertical"
+                android:onClick="openPhone"
                 android:paddingBottom="8dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
                 android:text="@string/number"
-                android:onClick="openPhone"/>
+                android:background="@drawable/rounded_corners"
+                android:layout_marginBottom="1dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -132,12 +144,14 @@
                 android:drawablePadding="16dp"
                 android:drawableStart="@drawable/ic_mail_outline_black_36dp"
                 android:gravity="center_vertical"
+                android:onClick="openEmail"
                 android:paddingBottom="8dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
                 android:text="@string/email"
-                android:onClick="openEmail"/>
+                android:background="@drawable/rounded_corners"
+                android:layout_marginBottom="1dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -146,14 +160,16 @@
                 android:drawablePadding="16dp"
                 android:drawableStart="@drawable/ic_place_black_36dp"
                 android:gravity="center_vertical"
+                android:onClick="openMaps"
                 android:paddingBottom="8dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="8dp"
                 android:text="@string/address"
-                android:onClick="openMaps"/>
+                android:background="@drawable/rounded_corners"/>
+            </LinearLayout>
 
-        </LinearLayout>
+
     </LinearLayout>
 
 
